@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
+
 import "./App.css";
+import  QuoteMessage  from "./QuoteMessage";
 
 function App() {
-  return <div className="App">Hello World</div>;
+  return (
+    <div className="App">
+      <QuoteMessage />
+    </div>
+  );
 }
 
 export default App;
