@@ -2,8 +2,11 @@ import React from "react";
 
 const RandomButton = ({ setButtonClicked, buttonClicked }) => {
   return (
-    <button onClick={() => setButtonClicked(!buttonClicked)}>
-      Random Quote
+    <button
+      className="button-64"
+      onClick={() => setButtonClicked(!buttonClicked)}
+    >
+      <span>Random Quote</span>
     </button>
   );
 };
